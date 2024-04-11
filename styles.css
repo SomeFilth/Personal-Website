@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border-style: solid;
+    border-color: #88AB8E;
+    border-top-width: 2px;
+  }
+
+body {
+    background-color: #AFC8AD;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+.top-container {
+    text-align: center;
+    background-color: #88AB8E;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.skill-icon {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #88AB8E; 
+    display: inline-block; 
+    background-color: #f0f0f0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+  }
+  
+
+.middle-container {
+    margin-bottom: 20px;
+}
+
+.profile, .skills {
+    margin-bottom: 20px;
+}
+
+.skill-row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.skill-icon {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+.btn-dark {
+    background-color: #88AB8E;
+    border-color: #88AB8E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark:hover {
+    background-color: #6A9176;
+    border-color: #6A9176;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.end-container {
+    text-align: center;
+    background-color: #88AB8E;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.links-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.links-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .skill-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-icon {
+        margin-bottom: 15px;
+    }
+}
+
+ul {
+    list-style-type: none;
+  }
